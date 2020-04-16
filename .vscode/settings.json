@@ -1,0 +1,21 @@
+{
+	"files.exclude": {
+		".*": true,
+		"*.json": true,
+		"dist": true,
+		"README.md": true,
+		"LICENSE": true,
+		"tsconfig.*": true,
+		"node_modules": true,
+		"*.code-workspace": true
+	},
+	"editor.tabSize": 2,
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+
+	"azureFunctions.deploySubpath": ".",
+	"azureFunctions.postDeployTask": "npm install",
+	"azureFunctions.projectLanguage": "TypeScript",
+	"azureFunctions.projectRuntime": "~2",
+	"azureFunctions.preDeployTask": "npm prune"
+}

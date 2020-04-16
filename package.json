@@ -1,0 +1,20 @@
+{
+  "name": "servly-azure-example",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prestart": "npm run build",
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "servly": "github:payfunc/servly#timer",
+    "servly-azure": "github:payfunc/servly-azure#timer"
+  },
+  "devDependencies": {
+    "@azure/functions": "^1.2.0",
+    "typescript": "^3.8.3"
+  }
+}
