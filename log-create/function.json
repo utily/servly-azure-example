@@ -1,0 +1,27 @@
+{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "get",
+        "post"
+      ]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+		},
+		{
+			"type": "queue",
+			"direction": "out",
+			"name": "log",
+			"queueName": "log",
+      "connection": "servlyexample_STORAGE"
+		}
+  ],
+  "scriptFile": "../dist/log-create/index.js"
+}

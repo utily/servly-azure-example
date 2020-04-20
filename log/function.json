@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "log",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "log",
+      "connection": "servlyexample_STORAGE"
+    }
+  ],
+  "scriptFile": "../dist/log/index.js"
+}
