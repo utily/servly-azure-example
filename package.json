@@ -10,8 +10,8 @@
     "test": "echo \"No tests yet...\""
   },
   "dependencies": {
-    "servly": "github:payfunc/servly#context",
-    "servly-azure": "github:payfunc/servly-azure#context"
+    "servly": "0.0.19",
+    "servly-azure": "0.0.15"
   },
   "devDependencies": {
     "@azure/functions": "^1.2.0",
