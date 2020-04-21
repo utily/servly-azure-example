@@ -13,6 +13,20 @@
 			"type": "http",
 			"direction": "out",
 			"name": "res"
+		},
+		{
+			"name": "log",
+			"type": "queue",
+			"direction": "out",
+			"queueName": "log",
+      "connection": "servlyexample_STORAGE"
+		},
+		{
+			"name": "callback",
+			"type": "queue",
+			"direction": "out",
+			"queueName": "callback",
+      "connection": "servlyexample_STORAGE"
 		}
 	],
 	"scriptFile": "../dist/create/index.js"

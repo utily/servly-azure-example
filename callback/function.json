@@ -1,11 +1,12 @@
 {
   "bindings": [
     {
-      "name": "myTimer",
-      "type": "timerTrigger",
+      "name": "callback",
+      "type": "queueTrigger",
       "direction": "in",
-      "schedule": "0 42 * * * *"
-		},
+      "queueName": "callback",
+      "connection": "servlyexample_STORAGE"
+    },
 		{
 			"name": "log",
 			"type": "queue",
@@ -14,5 +15,5 @@
       "connection": "servlyexample_STORAGE"
 		}
   ],
-  "scriptFile": "../dist/hourly/index.js"
+  "scriptFile": "../dist/callback/index.js"
 }
