@@ -10,8 +10,8 @@
     "test": "echo \"No tests yet...\""
   },
   "dependencies": {
-    "servly": "0.0.19",
-    "servly-azure": "0.0.15"
+    "servly": "^0.1.2",
+    "servly-azure": "^0.1.2"
   },
   "devDependencies": {
     "@azure/functions": "^1.2.0",
