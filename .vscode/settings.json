@@ -16,5 +16,12 @@
 	"azureFunctions.deploySubpath": ".",
 	"azureFunctions.postDeployTask": "npm install",
 	"azureFunctions.projectLanguage": "TypeScript",
-	"azureFunctions.projectRuntime": "~2"
+	"azureFunctions.projectRuntime": "~2",
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true,
+		"eslint.autoFixOnSave": true,
+	},
+	"files.insertFinalNewline": true,
+	"javascript.format.enable": false,
+	"typescript.format.enable": false,
 }
